@@ -1,0 +1,40 @@
+        //Splash image coding!
+        try {
+        JSplash splash = new JSplash(Test.class.getResource("rsz_clippenburg_copy.jpg"), true, false, true, null, null, Color.RED, Color.BLACK);
+        splash.splashOn();
+        
+        splash.setProgress(20);
+        Thread.sleep(1000);
+        
+        splash.setProgress(50);
+        Thread.sleep(1000);
+        
+        splash.setProgress(80);
+        Thread.sleep(1000);
+        
+        splash.splashOff();
+        } 
+        
+        catch (InterruptedException ex) {
+            System.out.println(ex);
+        }
+        //end of splash image code
+
+
+
+
+
+
+946E1CDB214A6227ABBCFA5F84
+
+
+
+
+
+
+private static void setMainWindowObject(Welcome_Window m){
+        window=m;
+    }
+    public static Welcome_Window getMainWindowObject(){
+        return window;
+    }
